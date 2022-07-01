@@ -8,10 +8,10 @@ body{
     margin: 0;
 }
 
-#content{
+/* #content{
     max-width: 1600px;
     margin: 0 auto;
-}
+} */
 
 #back_img{
     background-image: url("../images/back_50_toptobot.png");
@@ -83,6 +83,10 @@ nav a:hover{
     color:#001966;
     text-shadow: .5px .5px 0 black;
 }
+#msg h2{
+    text-align: center;
+    font-size: 2.3em;
+}
 
 #msg p{
     text-align: center;
@@ -111,3 +115,56 @@ nav a:hover{
     text-decoration: none;
     font-size: 1.7em;
 }
+
+#services_list{
+    font-size: 1.7em;
+    color: black;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+
+
+
+/* Gallery Page*/
+
+#gallery_header{
+    background-color: #decccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#gallery_main{
+    background-color: #CDDDDD;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+
+#gallery_title{
+    text-align: center;
+    color:#001966;
+    font-size: 2.5em;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px 50px;
+}
+
+#gallery img{
+    width: 100%;
+    height: 300px;
+}
+
+#gallery img:hover{
+    transform: scale(1.1);
+}
+
+
+/* alt color 
+#6DA34D */
