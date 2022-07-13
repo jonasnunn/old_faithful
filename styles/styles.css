@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+
+
 html{
     padding: 0;
     margin: 0;
@@ -6,15 +10,19 @@ html{
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Noto Sans', 'Merriweather', serif;
+}
+button{
+    font-family: 'Noto Sans', 'Merriweather', serif;
 }
 
 /* #content{
-    max-width: 1600px;
+    max-width: 1700px;
     margin: 0 auto;
 } */
 
 #back_img{
-    background-image: url("../images/back_50_toptobot.png");
+    background-image: url("../images/light_floater.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -37,11 +45,9 @@ header{
 }
 
 #logo{
-    width: 100%;
-    height: 70%;
-    margin-top: 30px;
-    border-radius: 8px;
-    border: solid #001966 2px;
+    width: 85%;
+    height: 85%;
+    padding: 20px;
 }
 
 #nav{
@@ -50,20 +56,20 @@ header{
     gap: 10px;
     grid-column: 4/6;
     margin:0 auto;
+    align-items: center;
 }
 
 nav a{
     color:#ffffff;
     text-decoration: none;
     font-size: 1.5em;
-    margin-top: 40px;
-    margin-bottom: 40px;
     padding-top: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #001966;
     text-align: center;
+    align-items: center;
     border-radius: 8px;
 }
 
@@ -79,7 +85,7 @@ nav a:hover{
 #msg h1{
     margin-top: 180px;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     color:#001966;
     text-shadow: .5px .5px 0 black;
 }
@@ -107,7 +113,6 @@ nav a:hover{
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 #contact_button{
@@ -117,11 +122,135 @@ nav a:hover{
 }
 
 #services_list{
-    font-size: 1.7em;
+    font-size: 2em;
+    line-height: 1.6em;
     color: black;
     font-weight: 700;
-    margin-left: 100px;
+    width: 70%;
+    margin: 0 auto;
 }
+
+
+#myBtn{
+    background-color: #001966;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 80%;
+}
+
+#myBtn:hover{
+    color: #1098F7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: #ffffff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    line-height: 2em;
+    text-align: center;
+}
+.modal-content h2 {
+    font-size: 3em;
+}
+
+.modal-content p {
+    font-size: 1.2em;
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* About Us Page */
+#aboutus_main{
+    background-color: #CDDDDD;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#about_h2{
+    grid-column: 1/2;
+    text-align: center;
+    font-size: 3em;
+    color:#001966;
+    margin-top: 100px;
+    margin-bottom: -30px;
+}
+
+#abus_p {
+    grid-column: 1/2;
+    text-align: center;
+    margin: 10px 50px;
+    line-height: 2em;
+    margin-top: -30px;
+}
+
+#first_img{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 80%;
+    margin: 30px auto;
+}
+
+#sec_img{
+    grid-row: 3/5;
+    width: 80%;
+    margin: 30px auto;
+}
+
+#mission_h2{
+    grid-column: 2/3;
+    text-align: center;
+    font-size: 3em;
+    color:#001966;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+#mission_p{
+    grid-column: 2/3;
+    text-align: center;
+    margin-top: -150px;
+    line-height: 2em;
+}
+
 
 
 
@@ -139,14 +268,15 @@ nav a:hover{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
 #gallery_title{
     text-align: center;
     color:#001966;
-    font-size: 2.5em;
-    padding-top: 100px;
+    font-size: 3em;
+    padding-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -168,3 +298,8 @@ nav a:hover{
 
 /* alt color 
 #6DA34D */
+
+/* change backgroud cover on hover fro nav bar */
+
+/* Have pictures for every section  */
+/* change backgrond with scrool Parralax scrolling*/

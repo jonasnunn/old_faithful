@@ -6,23 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header>
         <a id="logo_link" href="index.html">
-            <img id="logo" src="images/logo.png" alt="logo">
+            <img id="logo" src="images/logo-removebg.png" alt="logo">
         </a>
-        <nav id="nav">
+        <nav id="nav"> 
             <a href="index.html">Home</a>
             <a href="aboutus.html">About Us</a>
             <a href="gallery.html">Gallery</a>
-            <a href="contactus.html ">Contact Us</a>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Contact Us</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Contact Us</h2>
+                <p>The best way for you to reach us is via phone or email<br>
+                   <b>Phone:</b> 972-231-5059<br>
+                   <b>Email:</b> Info@old-faithful.com
+                </p>
+            </div>
+
+            </div>
         </nav>
     </header>
-    <main>
-        <h1>About Us</h1>
-        <p>Looking for quality fountain installation? Call us today! Old Faithful Fountains Inc. a full service fountain company has been serving the DFW area since 1987. We provide consulting sales and support contract maintenance repairs and renovations for architectural fountains floating fountains and various other water-features. Contract service maintenance is available on weekly bi-weekly and monthly schedules. Our service technicians are professional highly skilled and factory trained by major pump manufacturers and floating fountain companies. Our expertise includes interactive fountains LED illumination technology and troubleshooting the problems others have been unsuccessful at repairing. We serve as a resource for the water-feature industry having experience with most major fountain products and manufacturers.</p>
-        <img src="images/i21.png" alt="img_21">
+    <main id="aboutus_main">
+        <h2 id="about_h2">About Us</h2>
+        <p id="abus_p">Old Faithful Fountains Inc. a full service fountain company has been serving the DFW area since 1987. We provide consulting sales and support contract maintenance repairs and renovations for architectural fountains floating fountains and various other water-features. Contract service maintenance is available on weekly bi-weekly and monthly schedules. Our service technicians are professional highly skilled and factory trained by major pump manufacturers and floating fountain companies. Our expertise includes interactive fountains LED illumination technology and troubleshooting the problems others have been unsuccessful at repairing. We serve as a resource for the water-feature industry having experience with most major fountain products and manufacturers.</p>
+        <img id="first_img" src="images/i12.png" alt="img_12">
+        <img id="sec_img" src="images/i21.png" alt="img_21">
+        <h2 id="mission_h2">Our Mission</h2>
+        <p id="mission_p">Our Mission is to provide you high quality products at an affordable price. We want to make sure every customer is happy with the service they receive.</p>
     </main>
 </body>
 </html>

@@ -6,25 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old Faithful Fountains</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
 <div id="content">
     <div id="back_img">
     <header>
         <a id="logo_link" href="index.html">
-            <img id="logo" src="images/logo.png" alt="logo">
+            <img id="logo" src="images/logo-removebg.png" alt="logo">
         </a>
-        <nav id="nav">
+        <nav id="nav"> 
             <a href="index.html">Home</a>
             <a href="aboutus.html">About Us</a>
             <a href="gallery.html">Gallery</a>
-            <a href="contactus.html ">Contact Us</a>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn"><i class="fa-solid fa-envelope"></i>  Contact Us</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Contact Us</h2>
+                <p>The best way for you to reach us is via phone or email<br>
+                   <b>Phone:</b> 972-231-5059<br>
+                   <b>Email:</b> Info@old-faithful.com
+                </p>
+            </div>
+
+            </div>
         </nav>
     </header>
     <main>
         <section id="msg">
             <h1>Beautifying Your World</h1>
-            <h2>We specialize in</h2>
+            <!-- <h2>We specialize in</h2> -->
             <ul id="services_list">
                 <li>Contract Maintenance</li>
                 <li>Repairs</li>

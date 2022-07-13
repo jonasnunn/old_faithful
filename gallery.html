@@ -8,15 +8,31 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header id="gallery_header">
+    <header>
         <a id="logo_link" href="index.html">
-            <img id="logo" src="images/logo.png" alt="logo">
+            <img id="logo" src="images/logo-removebg.png" alt="logo">
         </a>
-        <nav id="nav">
+        <nav id="nav"> 
             <a href="index.html">Home</a>
             <a href="aboutus.html">About Us</a>
             <a href="gallery.html">Gallery</a>
-            <a href="contactus.html ">Contact Us</a>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Contact Us</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Contact Us</h2>
+                <p>The best way for you to reach us is via phone or email<br>
+                   <b>Phone:</b> 972-231-5059<br>
+                   <b>Email:</b> Info@old-faithful.com
+                </p>
+            </div>
+
+            </div>
         </nav>
     </header>
     <main id="gallery_main">
@@ -26,7 +42,7 @@
             <img src="images/i2.png" alt="pic_2">
             <img src="images/i3.png" alt="pic_3">
             <img src="images/i4.png" alt="pic_4">
-            <img src="images/i5.png" alt="pic_5">
+            <!-- <img src="images/i5.png" alt="pic_5"> -->
             <img src="images/i6.png" alt="pic_6">
             <img src="images/i7.png" alt="pic_7">
             <img src="images/i8.png" alt="pic_8">
