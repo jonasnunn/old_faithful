@@ -255,6 +255,7 @@ nav a:hover{
     text-align: center;
     margin-top: -150px;
     line-height: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -271,8 +272,8 @@ nav a:hover{
 
 #gallery_main{
     background-color: #CDDDDD;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -321,6 +322,51 @@ nav a:hover{
     float: right;
     margin-right: -50px;
 }
+
+
+
+
+@media screen and (max-width: 1635px) {
+body{
+    background-color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.2fr 1.2fr;
+    /* background-color: grey; */
+}
+
+
+
+
+
+
+/* gallery page */
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px 50px;
+}
+
+.fountain_logo{
+    width: 3%;
+    margin-top: 65px;
+}
+
+#left_fountain{
+    float: left;
+    margin-left: -40px;
+}
+
+#right_fountain{
+    float: right;
+    margin-right: -42px;
+}
+
+
+}
+
+
 
 /* alt color 
 #6DA34D */
