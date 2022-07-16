@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
-
-
 html{
     padding: 0;
     margin: 0;
@@ -16,10 +14,10 @@ button{
     font-family: 'Noto Sans', 'Merriweather', serif;
 }
 
-/* #content{
-    max-width: 1700px;
+#content{
+    max-width: 2200px;
     margin: 0 auto;
-} */
+}
 
 #back_img{
     background-image: url("../images/light_floater.png");
@@ -36,7 +34,6 @@ button{
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* background-color: grey; */
 }
 
 #logo_link{
@@ -88,17 +85,6 @@ nav a:hover{
     font-size: 4em;
     color:#001966;
     text-shadow: .5px .5px 0 black;
-}
-#msg h2{
-    text-align: center;
-    font-size: 2.3em;
-}
-
-#msg p{
-    text-align: center;
-    color: #ffffff;
-    text-shadow: .5px .5px 0 black;
-    line-height: 1.4em;
 }
 
 #msg div{
@@ -326,6 +312,13 @@ nav a:hover{
 
 
 
+@media screen and (max-width: 2200px){
+#fountain_logo{
+       display: none;
+}
+}
+
+
 @media screen and (max-width: 1635px) {
 body{
     background-color: black;
@@ -333,13 +326,7 @@ body{
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1.2fr 1.2fr;
-    /* background-color: grey; */
 }
-
-
-
-
-
 
 /* gallery page */
 #gallery{
@@ -362,12 +349,154 @@ header{
     float: right;
     margin-right: -42px;
 }
+#fountain_logo{
+    display: none;
+}
+}
 
+
+@media screen and (max-width: 1500px) {
+body{
+    background-color: aliceblue;
+}
+header{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+nav a{
+    font-size: 1.2em;
+}
+#myBtn{
+    font-size: 1.2em;
+}
+}
+
+@media screen and (max-width: 1360px){
+body{
+        background-color: burlywood;
+}
+#msg h1{
+    font-size: 3.5em;
+}
+#services_list{
+    font-size: 1.7em;
+    line-height: 1.6em;
+    color: black;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+}
+nav a{
+    font-size: 1.1em;
+}
+#myBtn{
+    font-size: 1.1em;
+}
+}
+
+@media screen and (max-width: 1275px){
+body{
+    background-color: lightseagreen;
+}
+nav a{
+    font-size: 1em;
+}
+#myBtn{
+    font-size: 1em;
+}
+}
+
+
+@media screen and (max-width: 1190px){
+body{
+    background-color: lightgreen;
+}
+#msg h1{
+    font-size: 3.2em;
+}
+nav a{
+    font-size: .9em;
+}
+#myBtn{
+    font-size: .9em;
+}
+}
+
+@media screen and (max-width: 1101px){
+body{
+    background-color: lightgoldenrodyellow;
+}
+#msg h1{
+    font-size: 3em;
+}
+#services_list{
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+nav a{
+    font-size: .8em;
+}
+#myBtn{
+    font-size: .8em;
+}
+}
+
+@media screen and (max-width: 1015px){
+body{
+    background-color: red;
+}    
+#msg h1{
+    font-size: 2.7em;
+}
+#services_list{
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+nav a{
+    font-size: .7em;
+}
+#myBtn{
+    font-size: .7em;
+}
+}
+
+@media screen and (max-width: 928px){
+body{
+    background-color: blueviolet;
+}
+header{
+    grid-template-columns: 1fr 1fr 1fr 1.1fr 1.1fr;
+}
+#logo{
+    width: 90%;
+    height: 85%;
+    padding: 20px;
+}    
+#msg h1{
+    font-size: 2.5em;
+}
+#services_list{
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+nav a{
+    font-size: .7em;
+}
+#myBtn{
+    font-size: .7em;
+}
 
 }
 
 
-
+@media screen and (max-width: 750px){
+#logo{
+    display: none;
+}
+#fountain_logo{
+display: block;
+}
+}
 /* alt color 
 #6DA34D */
 
