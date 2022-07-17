@@ -9,6 +9,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Noto Sans', 'Merriweather', serif;
+    background-color: aliceblue;
 }
 button{
     font-family: 'Noto Sans', 'Merriweather', serif;
@@ -320,9 +321,9 @@ nav a:hover{
 
 
 @media screen and (max-width: 1635px) {
-body{
+/* body{
     background-color: black;
-}
+} */
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1.2fr 1.2fr;
@@ -356,9 +357,9 @@ header{
 
 
 @media screen and (max-width: 1500px) {
-body{
+/* body{
     background-color: aliceblue;
-}
+} */
 header{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -371,9 +372,9 @@ nav a{
 }
 
 @media screen and (max-width: 1360px){
-body{
+/* body{
         background-color: burlywood;
-}
+} */
 #msg h1{
     font-size: 3.5em;
 }
@@ -394,9 +395,9 @@ nav a{
 }
 
 @media screen and (max-width: 1275px){
-body{
+/* body{
     background-color: lightseagreen;
-}
+} */
 nav a{
     font-size: 1em;
 }
@@ -407,9 +408,9 @@ nav a{
 
 
 @media screen and (max-width: 1190px){
-body{
+/* body{
     background-color: lightgreen;
-}
+} */
 #msg h1{
     font-size: 3.2em;
 }
@@ -422,9 +423,9 @@ nav a{
 }
 
 @media screen and (max-width: 1101px){
-body{
+/* body{
     background-color: lightgoldenrodyellow;
-}
+} */
 #msg h1{
     font-size: 3em;
 }
@@ -442,9 +443,9 @@ nav a{
 }
 
 @media screen and (max-width: 1015px){
-body{
+/* body{
     background-color: red;
-}    
+}     */
 #msg h1{
     font-size: 2.7em;
 }
@@ -461,9 +462,9 @@ nav a{
 }
 
 @media screen and (max-width: 928px){
-body{
+/* body{
     background-color: blueviolet;
-}
+} */
 header{
     grid-template-columns: 1fr 1fr 1fr 1.1fr 1.1fr;
 }
