@@ -18,15 +18,14 @@
             <img id="fountain_logo" src="images/fountain_logo.png" alt="fountain_logo">
         </a>
         <nav id="nav"> 
-            <a href="index.html">Home</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="gallery.html">Gallery</a>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="aboutus.html"> About Us</a>
+            <a href="gallery.html"> Gallery</a>
             <!-- Trigger/Open The Modal -->
             <button id="myBtn"><i class="fa-solid fa-envelope"></i>  Contact Us</button>
 
             <!-- The Modal -->
             <div id="myModal" class="modal">
-
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
@@ -36,11 +35,35 @@
                    <b>Email:</b> Info@old-faithful.com
                 </p>
             </div>
+            <!-- End of Modal -->
+            </div> 
+        </nav>
 
+        <!-- mobile nav -->
+        <nav id="mobile_nav">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="aboutus.html"><i class="fa-solid fa-address-card"></i></a>
+            <a href="gallery.html"><i class="fa-solid fa-images"></i></a>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn"><i class="fa-solid fa-envelope"></i></button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Contact Us</h2>
+                <p>We would love to hear from you today!<br>
+                   <b>Phone:</b> 972-231-5059<br>
+                   <b>Email:</b> Info@old-faithful.com
+                </p>
             </div>
+            <!-- End of Modal -->
+            </div> 
+        <!-- End of mobile nav -->
         </nav>
     </header>
-    <main>
+    <main id="index_main">
         <section id="msg">
             <h1>Beautifying Your World</h1>
             <!-- <h2>We specialize in</h2> -->
@@ -50,11 +73,29 @@
                 <li>Renovation</li>
                 <li>Consulting</li>
             </ul>
-            <!-- <div>
-                <a  id='contact_button' href="contactus.html">Contact Us</a>
-            </div> -->
         </section>
     </main>
+    </div>
+    <div id="what_we_do">
+        <section id="contract_maintance">
+            <h2>Contract Maintenance</h2>
+            <p>For commercial projects we offer scheduled maintence and cleaning of floating and structural fountains. Pricing is deterined by the amount of time spent and the frequency of visits.</p>
+        </section>
+
+        <section id="repairs">
+            <h2>Repairs</h2>
+            <p>We have a wide range of expertise and can help troubleshoot all the probelms your fountain might have!</p>
+        </section>
+
+        <section id="renovation">
+            <h2>Renovation</h2>
+            <p>We can also help remodel your exsiting fountain to make it more of what you always imagined it would be.</p>
+        </section>
+
+        <section id="consulting">
+            <h2>Consulting</h2>
+            <p>If you need another opinion we have over 30 years of expertise in the fountain industry and we want to share out knowlege with you.</p>
+        </section>
     </div>
 </div>    
 </body>
