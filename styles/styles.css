@@ -454,6 +454,28 @@ nav a{
 #myBtn{
     font-size: 1.1em;
 }
+#what_we_do h2{
+    width: 70%;
+}
+#contract_maintance{
+    padding-left: 170px;
+    padding-right: 20px;
+}
+
+#repairs{
+    padding-right: 170px;
+    padding-left: 20px;
+}
+
+#renovation{
+    padding-left: 170px;
+    padding-right: 20px;
+}
+
+#consulting{
+    padding-right: 170px;
+    padding-left: 20px;
+}
 }
 
 @media screen and (max-width: 1275px){
@@ -482,6 +504,25 @@ nav a{
 #myBtn{
     font-size: .9em;
 }
+#contract_maintance{
+    padding-left: 120px;
+    padding-right: 50px;
+}
+
+#repairs{
+    padding-right: 120px;
+    padding-left: 50px;
+}
+
+#renovation{
+    padding-left: 120px;
+    padding-right: 50px;
+}
+
+#consulting{
+    padding-right: 120px;
+    padding-left: 50px;
+}
 }
 
 @media screen and (max-width: 1101px){
@@ -504,7 +545,7 @@ nav a{
 }
 }
 
-@media screen and (max-width: 1015px){
+@media screen and (max-width: 1020px){
 /* body{
     background-color: red;
 }     */
@@ -521,7 +562,53 @@ nav a{
 #myBtn{
     font-size: .7em;
 }
+#what_we_do{
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+#what_we_do h2{
+    color:#001966;
+    text-align: center;
+    border-bottom: solid #001966 2px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+}
+
+#what_we_do p{
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#contract_maintance{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#repairs{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#renovation{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#consulting{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+}
+
+
+
+
 
 @media screen and (max-width: 928px){
 /* body{
@@ -552,18 +639,8 @@ nav a{
 }
 
 
-@media screen and (max-width: 750px){
-#logo{
-    display: none;
-}
-#fountain_logo{
-display: block;
-}
-}
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 878px){
 header{
     display: grid;
     grid-template-columns: 1fr;
@@ -571,11 +648,16 @@ header{
     margin-right: 10px;
 }
 
+#logo{
+    display: none;
+}
+
 #logo_link{
     grid-column: 1/-1;
 }
 
 #fountain_logo{
+    display: block;
     width: 50%;
     padding-top: 20px;
     margin: 0 auto;
@@ -584,6 +666,104 @@ header{
 #nav{
     display: none;
 }
+
+#mobile_nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#mobile_nav a{
+    font-size: 1.4em;
+}
+
+#myBtn{
+    background-color: #001966;
+    color: #ffffff;
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+#msg{
+    margin: 0 auto;
+    width: 70%;
+}
+
+#msg h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3em;
+    color:#001966;
+    text-shadow: .5px .5px 0 black;
+}
+
+#services_list{
+    font-size: 1.5em;
+    line-height: 1.6em;
+    color: black;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#what_we_do{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#what_we_do h2{
+    color:#001966;
+    text-align: center;
+    border-bottom: solid #001966 2px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+}
+
+#what_we_do p{
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#contract_maintance{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#repairs{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#renovation{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#consulting{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+
+}
+
+@media screen and (max-width: 500px){
 
 #mobile_nav{
     display: grid;
