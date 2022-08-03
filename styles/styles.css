@@ -476,6 +476,13 @@ nav a{
     padding-right: 170px;
     padding-left: 20px;
 }
+
+
+/* gallery */
+#gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 }
 
 @media screen and (max-width: 1275px){
@@ -542,6 +549,12 @@ nav a{
 }
 #myBtn{
     font-size: .8em;
+}
+/* gallery */
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 50px;
 }
 }
 
@@ -635,7 +648,10 @@ nav a{
 #myBtn{
     font-size: .7em;
 }
-
+#gallery{
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 50px;
+}
 }
 
 
