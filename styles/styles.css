@@ -652,19 +652,19 @@ header{
     margin-bottom: 50px;
 }
 #logo{
-    display: none;
+    margin: 0 auto;
 }
 
 #logo_link{
     grid-column: 1/-1;
 }
 
-#fountain_logo{
+/* #fountain_logo{
     display: block;
     width: 50%;
     padding-top: 20px;
     margin: 0 auto;
-}
+} */
 
 #nav{
     display: none;
@@ -865,8 +865,66 @@ header{
     padding-right: 20px;
     padding-bottom: 30px;
 }
+}
 
 
+@media screen and (max-width: 360px){
+#msg{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#msg h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.7em;
+    color:#001966;
+    text-shadow: .5px .5px 0 black;
+}
+#what_we_do h2{
+    width: 80%;
+    font-size: 2.2em;
+}
+}
+
+
+@media screen and (max-width: 316px){
+#msg{
+    width: 80%;
+}
+
+#msg h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    color:#001966;
+    text-shadow: .5px .5px 0 black;
+}
+
+#services_list{
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: black;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#mobile_nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    width: 93%;
+}
+
+#what_we_do h2{
+    width: 80%;
+    font-size: 2.1em;
+}
+
+#what_we_do p{
+    font-size: 1.2em;
+}
 }
 
 /* alt color 
