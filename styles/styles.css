@@ -630,10 +630,7 @@ nav a{
 }
 
 
-@media screen and (max-width: 1190px){
-/* body{
-    background-color: lightgreen;
-} */
+@media screen and (max-width: 1194px){
 #msg h1{
     font-size: 3.2em;
 }
@@ -647,20 +644,42 @@ nav a{
     padding-left: 120px;
     padding-right: 50px;
 }
-
 #repairs{
     padding-right: 120px;
     padding-left: 50px;
 }
-
 #renovation{
     padding-left: 120px;
     padding-right: 50px;
 }
-
 #consulting{
     padding-right: 120px;
     padding-left: 50px;
+}
+
+/* About Us Page */
+#about_h2{
+    font-size: 2.4em;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+#abus_p {
+    font-size: .9em;
+    line-height: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#mission_h2{
+    font-size: 2.4em;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+#mission_p{
+    margin-top: -170px;
+    line-height: 2em;
+    font-size: 1.2em;
 }
 
 /* gallery */
@@ -668,20 +687,42 @@ nav a{
     width: 3%;
     margin-top: 72px;
 }
-
 #left_fountain{
     margin-left: -34px;
 }
-
 #right_fountain{
     margin-right: -36px;
 }
 }
 
+@media screen and (max-width: 1156px){
+/* about us */
+#about_h2{
+    font-size: 2.3em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: .9em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#mission_h2{
+    font-size: 2.4em;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+#mission_p{
+    margin-top: -155px;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+}
+
 @media screen and (max-width: 1101px){
-/* body{
-    background-color: lightgoldenrodyellow;
-} */
 #msg h1{
     font-size: 3em;
 }
