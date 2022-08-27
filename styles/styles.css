@@ -755,6 +755,20 @@ nav a{
 #right_fountain{
     margin-right: -38px;
 }
+/* about us */
+#about_h2{
+    font-size: 2.1em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: .85em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
 }
 
 @media screen and (max-width: 1020px){
@@ -778,7 +792,6 @@ nav a{
     display: grid;
     grid-template-columns: 1fr;
 }
-
 #what_we_do h2{
     color:#001966;
     text-align: center;
@@ -789,36 +802,81 @@ nav a{
     padding-bottom: 10px;
     font-size: 2.2em;
 }
-
 #what_we_do p{
     text-align: center;
     font-size: 1.3em;
     line-height: 1.5em;
 }
-
 #contract_maintance{
     padding-left: 100px;
     padding-right: 100px;
 }
-
 #repairs{
     padding-left: 100px;
     padding-right: 100px;
 }
-
 #renovation{
     padding-left: 100px;
     padding-right: 100px;
 }
-
 #consulting{
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 30px;
 }
+
+/* about us */
+#about_h2{
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: .8em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#mission_h2{
+    font-size: 2.3em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#mission_p{
+    margin-top: -145px;
+    line-height: 2em;
+    font-size: 1.15em;
+}
 }
 
-
+@media screen and (max-width: 965px){
+/* about us */
+#about_h2{
+    font-size: 1.9em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: .75em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#mission_h2{
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#mission_p{
+    margin-top: -145px;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+}
 
 
 
@@ -862,6 +920,35 @@ nav a{
 #right_fountain{
     margin-right: -36px;
 }
+
+/* about us */
+#about_h2{
+    grid-column: 1/2;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: .7em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#mission_h2{
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#mission_p{
+    margin-top: -140px;
+    line-height: 2em;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 }
 
 
@@ -884,13 +971,6 @@ header{
 #logo_link{
     grid-column: 1/-1;
 }
-
-/* #fountain_logo{
-    display: block;
-    width: 50%;
-    padding-top: 20px;
-    margin: 0 auto;
-} */
 
 #nav{
     display: none;
@@ -989,6 +1069,50 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
+}
+
+/* about us */
+#sec_img{
+    display: none;
+}
+
+#aboutus_main{
+    background-color: #CDDDDD;
+    display: block; 
+}
+#about_h2{
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#first_img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+#mission_h2{
+    font-size: 2.3em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#mission_p{
+    margin-top: 0px;
+    line-height: 2em;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 170px;
 }
 }
 
@@ -1197,6 +1321,39 @@ header{
     width: 80%;
     font-size: 2.2em;
 }
+/* about us */
+#about_h2{
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#first_img{
+    margin-bottom: 60px;
+}
+#mission_h2{
+    font-size: 2.3em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#mission_p{
+    margin-top: 0px;
+    line-height: 2em;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 170px;
+}
+
 /* gallery */
 #gallery_title{
     font-size: 2.3em;
