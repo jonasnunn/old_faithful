@@ -1114,6 +1114,11 @@ header{
     margin-right: 20px;
     padding-bottom: 170px;
 }
+
+/* gallery */
+#gallery_main{
+    padding-bottom: 90px;
+}
 }
 
 
@@ -1261,6 +1266,39 @@ header{
     padding-right: 20px;
     padding-bottom: 30px;
 }
+/* about us */
+#about_h2{
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+#abus_p {
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#mission_h2{
+    font-size: 2.3em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#mission_p{
+    margin-top: 0px;
+    line-height: 2em;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 170px;
+}
+
+
+
+
 /* gallery */
 #gallery_title{
     font-size: 2.7em;
