@@ -118,8 +118,7 @@ nav a:hover{
     margin: 0 auto;
 }
 
-
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     background-color: #001966;
     color: #ffffff;
     font-size: 1.5em;
@@ -135,7 +134,8 @@ nav a:hover{
     width: 80%;
 }
 
-#myBtn:hover{
+
+#myBtn:hover, #mobileNavContactBtn:hover{
     color: #1098F7;
 }
 
@@ -172,14 +172,14 @@ nav a:hover{
     font-size: 1.2em;
 }
 /* The Close Button */
-.close {
+.close, .navClose {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
   
-.close:hover, .close:focus {
+.close:hover, .close:focus, .navClose:hover,.navClose:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -449,7 +449,7 @@ header{
 nav a{
     font-size: 1.2em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: 1.2em;
 }
 /* About Us Page */
@@ -495,7 +495,7 @@ nav a{
 nav a{
     font-size: 1.1em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: 1.1em;
 }
 #what_we_do h2{
@@ -567,7 +567,7 @@ nav a{
 nav a{
     font-size: 1em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: 1em;
 }
 
@@ -637,7 +637,7 @@ nav a{
 nav a{
     font-size: .9em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: .9em;
 }
 #contract_maintance{
@@ -734,7 +734,7 @@ nav a{
 nav a{
     font-size: .8em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: .8em;
 }
 /* gallery */
@@ -785,7 +785,7 @@ nav a{
 nav a{
     font-size: .7em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: .7em;
 }
 #what_we_do{
@@ -902,7 +902,7 @@ header{
 nav a{
     font-size: .7em;
 }
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     font-size: .7em;
 }
 /* gallery */
@@ -989,7 +989,7 @@ header{
     font-size: 1.4em;
 }
 
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     background-color: #001966;
     color: #ffffff;
     font-size: 1.4em;
@@ -1004,6 +1004,24 @@ header{
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    line-height: 2em;
+    text-align: center;
+    color: #001966;
+}
+.modal-content h2 {
+    font-size: 1.8em;
+}
+
+.modal-content p {
+    font-size: 1em;
 }
 
 #msg{
@@ -1187,7 +1205,7 @@ header{
     font-size: .6em;
 }
 
-#myBtn{
+#myBtn, #mobileNavContactBtn{
     background-color: #001966;
     color: #ffffff;
     padding-top: 0px;
@@ -1297,7 +1315,7 @@ header{
 }
 
 
-
+k
 
 /* gallery */
 #gallery_title{
@@ -1459,7 +1477,7 @@ header{
 /* alt color 
 #6DA34D */
 
-/* change backgroud cover on hover fro nav bar */
+/* change backgroud cover on hover for nav bar */
 
 /* Have pictures for every section  */
 /* change backgrond with scrool Parralax scrolling*/

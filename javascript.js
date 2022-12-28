@@ -23,3 +23,29 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// Get the modal
+var navModal = document.getElementById("myNavModal");
+
+// Get the button that opens the modal
+var navBtn = document.getElementById("mobileNavContactBtn");
+
+// Get the <span> element that closes the modal
+var navSpan = document.getElementsByClassName("navClose")[0];
+
+// When the user clicks on the button, open the modal
+navBtn.onclick = function() {
+  navModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+navSpan.onclick = function() {
+  navModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    navModal.style.display = "none";
+  }
+}
