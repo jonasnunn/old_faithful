@@ -50,8 +50,7 @@ header{
 }
 
 #nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
+    display: flex;
     gap: 10px;
     grid-column: 4/6;
     margin:0 auto;
